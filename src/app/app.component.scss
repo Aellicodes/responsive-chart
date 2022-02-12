@@ -1,0 +1,16 @@
+.charts {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50%;
+  gap: 1rem;
+
+  mat-card {
+    background-color: #5e495c;
+
+    .chart {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
